@@ -1,0 +1,4 @@
+pathlib
+bibtexparser
+numpy
+pandas
