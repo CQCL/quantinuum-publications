@@ -8,6 +8,7 @@ import pathlib
 import bibtexparser
 import numpy as np
 import pandas as pd
+from sympy import laguerre
 
 def _reverse_author_order(name_list):
     """ Reverses author names to be first name (or initials) then last, returns
@@ -91,11 +92,13 @@ def _create_website_columns(df, topic):
 
     return website
 
-def bib_to_csv(topic, bib_file='articles.bib', save=True):
+def bib_to_csv(topic, root_dir, bib_file='articles.bib', save=True):
     """ Function for converting and saving 1 .bib file as-is with no adjustments. 
         All BibTex entries are kept.
     """
-    bib_dir = pathlib.Path.cwd().parent.joinpath(f'latex').joinpath(topic)
+    latex_dir = root_dir.joinpath('latex')
+    csv_dir = root_dir.joinpath('csv')
+    bib_dir = latex_dir.joinpath(topic)
 
     with open(bib_dir.joinpath(bib_file)) as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file)
@@ -104,27 +107,30 @@ def bib_to_csv(topic, bib_file='articles.bib', save=True):
 
     if save:
         bib_csv = topic+'-'+bib_file.removesuffix('.bib')+'.csv'
-        df.to_csv(pathlib.Path.cwd().joinpath(bib_csv), index=False)
+        df.to_csv(csv_dir.joinpath(bib_csv), index=False)
         print("Finished saving csv:", bib_csv)
+        # print("Save Directory:", csv_dir)
 
     return df
 
-def create_website_csv(save=True):
+def create_website_csv(root_dir, save_topics=True):
     """ Create the website csv. 
     
         Convert all articles.bib files to csv, combine them, and transform 
         column formats.
     """
-    bib_dir = pathlib.Path.cwd().parent.joinpath(f'latex')
-    bib_dir_topics = [f for f in bib_dir.iterdir() if f.is_dir()]
+    latex_dir = root_dir.joinpath('latex')
+    csv_dir = root_dir.joinpath('csv')
+    bib_dir_topics = [f for f in latex_dir.iterdir() if f.is_dir()]
 
     website = pd.DataFrame()
     for topic in bib_dir_topics:
-        df_topic = bib_to_csv(topic.name, save=save)
+        df_topic = bib_to_csv(topic.name, root_dir, save=save_topics)
         df_website = _create_website_columns(df_topic, topic.name)
         website = pd.concat([website, df_website], ignore_index=True)
 
-    website.to_csv(pathlib.Path.cwd().joinpath('website.csv'), index=False)
+    website.to_csv(csv_dir.joinpath('website.csv'), index=False)
     print("Finished saving website.csv")
+    print("Save Directory:", csv_dir)
 
     return website
