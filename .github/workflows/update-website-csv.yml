@@ -39,7 +39,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m -a "update website.csv"
+          git commit -m "update website.csv" -a
       
       # Push changes to repo
       - name: push changes
