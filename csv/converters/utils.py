@@ -4,11 +4,9 @@
 
     Requires Python >= 3.9 with removesuffix function
 """
-import pathlib
 import bibtexparser
 import numpy as np
 import pandas as pd
-from sympy import laguerre
 
 def _reverse_author_order(name_list):
     """ Reverses author names to be first name (or initials) then last, returns
