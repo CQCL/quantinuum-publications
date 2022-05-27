@@ -37,6 +37,8 @@ share/python-wheels/
 *.egg
 
 # LaTex Compilation
+*.fdb_latexmk
+*.fls
 *.aux
 *.bbl
 *.blg
