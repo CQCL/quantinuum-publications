@@ -1,4 +1,5 @@
-# Format follows example here: https://canovasjm.netlify.app/2020/11/29/github-actions-run-a-python-script-on-schedule-and-commit-changes/
+# Format follows example here: 
+# https://canovasjm.netlify.app/2020/11/29/github-actions-run-a-python-script-on-schedule-and-commit-changes/
 name: update-website-csv
 
 on:
@@ -13,7 +14,9 @@ jobs:
 
       # checkout repo contents
       - name: checkout repo content
-        uses: actions/checkout@v2 
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
 
       # install python
       - name: setup python
@@ -38,11 +41,11 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -A
           git commit -m "update website.csv" -a
-      
+
       # Push changes to repo
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: ${{ github.event.pull_request.head.ref }}
     
