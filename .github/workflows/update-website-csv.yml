@@ -16,7 +16,7 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2
         with:
-          ref: ${{ github.GITHUB_REF_NAME }}
+          ref: ${{ github.event.pull_request.head.ref }}
 
       # install python
       - name: setup python
@@ -48,7 +48,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # branch: main
-          branch: ${{ github.GITHUB_REF_NAME }}
+          branch: ${{ github.event.pull_request.head.ref }}
 
       #  Test tmate style
       # - name: Setup tmate session
