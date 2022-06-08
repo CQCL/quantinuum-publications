@@ -43,7 +43,7 @@ and Hall, Alex and Moses, Steven and Pino, Juan and Spaun, Ben
 and Neyenhuis, Brian and Hayes, David",Entanglement from Tensor Networks on a Trapped-Ion Quantum Computer,article,Foss-Feig:2022,,,,
 https://doi.org/10.22331/q-2022-05-09-707,10.22331/q-2022-05-09-707,"Verein zur F{\""{o}}rderung des Open Access Publizierens in den 
 Quantenwissenschaften",5,2022,,707,,6,Quantum,"Baldwin, Charles H. and Mayer, Karl and Brown, Natalie C. 
-and Ryan-Anderson, CiarÃ¡n and Hayes, David","Re-examining the quantum volume test: Ideal distributions, compiler
+and Ryan-Anderson, Ciarán and Hayes, David","Re-examining the quantum volume test: Ideal distributions, compiler
 optimizations, confidence intervals, and scalable resource
 estimations",article,Baldwin:2022,,,,2521-327X
 https://arxiv.org/abs/2203.01920,10.48550/ARXIV.2203.01920,arXiv,5,2022,,,,,,"Fangzhao, {Alex An} and Ransford, Anthony and Schaffer, Andrew 
@@ -51,3 +51,4 @@ and Sletten, Lucas R. and Gaebler, John and Hostetter, James
 and Vittorini, Grahame","High fidelity state preparation and measurement of ion hyperfine 
 qubits with I &gt; 1/2",article,Fangzhao:2022,,Creative Commons Attribution 4.0 International,"Quantum Physics (quant-ph), FOS: Physical sciences, 
 FOS: Physical sciences",
+https://arxiv.org/abs/2205.06299,10.48550/ARXIV.2205.06299,arXiv,,2022,,,,,,"Zhang, Yuxuan and Jahanbani, Shahin and Niu, Daoheng and Haghshenas, Reza and Potter, Andrew C.",Qubit-efficient simulation of thermal states with quantum tensor networks,article,https://doi.org/10.48550/arxiv.2205.06299,,Creative Commons Attribution Share Alike 4.0 International,"Quantum Physics (quant-ph), Quantum Gases (cond-mat.quant-gas), Strongly Correlated Electrons (cond-mat.str-el), FOS: Physical sciences, FOS: Physical sciences",
