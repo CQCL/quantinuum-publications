@@ -8,5 +8,5 @@ import pathlib
 from utils import create_website_csv
 
 root_dir = pathlib.Path.cwd()
-print("rood_dir:", root_dir)
+print("root_dir:", root_dir)
 website = create_website_csv(root_dir, save_topics=True)

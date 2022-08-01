@@ -1,0 +1,41 @@
+url,doi,copyright,publisher,year,keywords,author,title,ENTRYTYPE,ID,month,numpages,pages,issue,volume,journal
+https://arxiv.org/abs/2107.09676,10.48550/ARXIV.2107.09676,"arXiv.org perpetual, non-exclusive license",arXiv,2021,"Quantum Physics (quant-ph), 
+Disordered Systems and Neural Networks (cond-mat.dis-nn), 
+Quantum Gases (cond-mat.quant-gas), 
+Statistical Mechanics (cond-mat.stat-mech), 
+Strongly Correlated Electrons (cond-mat.str-el), 
+FOS: Physical sciences, FOS: Physical sciences","Dumitrescu, Philipp T. and Bohnet, Justin and Gaebler, John 
+and Hankin, Aaron and Hayes, David and Kumar, Ajesh 
+and Neyenhuis, Brian and Vasseur, Romain and Potter, Andrew C.","Realizing a dynamical topological phase in a trapped-ion quantum 
+simulator",article,https://doi.org/10.48550/arxiv.2107.09676,,,,,,
+https://arxiv.org/abs/2110.03137,10.48550/ARXIV.2110.03137,"arXiv.org perpetual, non-exclusive license",arXiv,2021,"Quantum Physics (quant-ph), FOS: Physical sciences, 
+FOS: Physical sciences","Lubinski, Thomas and Johri, Sonika and Varosy, Paul 
+and Coleman, Jeremiah and Zhao, Luning and Necaise, Jason 
+and Baldwin, Charles H. and Mayer, Karl and Proctor, Timothy",Application-Oriented Performance Benchmarks for Quantum Computing,article,https://doi.org/10.48550/arxiv.2110.03137,10,,,,,
+https://arxiv.org/abs/2112.10810,10.48550/ARXIV.2112.10810,Creative Commons Attribution Share Alike 4.0 International,arXiv,2021,"Strongly Correlated Electrons (cond-mat.str-el), 
+Quantum Physics (quant-ph), FOS: Physical sciences, 
+FOS: Physical sciences","Niu, Daoheng and Haghshenas, Reza and Zhang, Yuxuan 
+and Foss-Feig, Michael and Chan, Garnet Kin-Lic 
+and Potter, Andrew C.","Holographic simulation of correlated electrons on a trapped ion 
+quantum processor",article,https://doi.org/10.48550/arxiv.2112.10810,2,,,,,
+https://link.aps.org/doi/10.1103/PhysRevResearch.3.L032047,10.1103/PhysRevResearch.3.L032047,,American Physical Society,2021,,"Wang, Zhiyuan and Foss-Feig, Michael and Hazzard, Kaden R. A.","Bounding the finite-size error of quantum many-body dynamics 
+simulations",article,10.1103/PhysRevResearch.3.L032047,8,8,L032047,3,3,Phys. Rev. Research
+https://arxiv.org/abs/2202.10911,10.48550/ARXIV.2202.10911,"arXiv.org perpetual, non-exclusive license",arXiv,2022,"Quantum Physics (quant-ph), 
+Statistical Mechanics (cond-mat.stat-mech), 
+FOS: Physical sciences, FOS: Physical sciences","Wall, Michael L. and Titum, Paraj and Quiroz, Gregory 
+and Foss-Feig, Michael and Hazzard, Kaden R. A.","A tensor network discriminator architecture for classification 
+of quantum data on quantum computers",article,https://doi.org/10.48550/arxiv.2202.10911,2,,,,,
+https://arxiv.org/abs/2203.05520,10.48550/ARXIV.2203.05520,"arXiv.org perpetual, non-exclusive license",arXiv,2022,"Quantum Physics (quant-ph), 
+Instrumentation and Detectors (physics.ins-det), 
+FOS: Physical sciences, FOS: Physical sciences","Polloreno, Anthony M. and Beckey, Jacob L. and Levin, Joshua 
+and Shlosberg, Ariel and Thompson, James K. 
+and Foss-Feig, Michael and Hayes, David and Smith, Graeme",Opportunities and Limitations in Broadband Sensing,article,https://doi.org/10.48550/arxiv.2203.05520,3,,,,,
+https://arxiv.org/abs/2204.12400,10.48550/ARXIV.2204.12400,"arXiv.org perpetual, non-exclusive license",arXiv,2022,"Quantum Physics (quant-ph), FOS: Physical sciences, 
+FOS: Physical sciences","Del Re, Lorenzo and Rost, Brian and Foss-Feig, Michael 
+and Kemper, A. F. and Freericks, J. K.","Robust measurements of n-point correlation functions of 
+driven-dissipative quantum systems on a digital quantum computer",article,https://doi.org/10.48550/arxiv.2204.12400,4,,,,,
+https://arxiv.org/abs/2205.06299,10.48550/ARXIV.2205.06299,Creative Commons Attribution Share Alike 4.0 International,arXiv,2022,"Quantum Physics (quant-ph), Quantum Gases (cond-mat.quant-gas), 
+Strongly Correlated Electrons (cond-mat.str-el), 
+FOS: Physical sciences, FOS: Physical sciences","Zhang, Yuxuan and Jahanbani, Shahin and Niu, Daoheng 
+and Haghshenas, Reza and Potter, Andrew C.","Qubit-efficient simulation of thermal states with quantum tensor 
+networks",article,https://doi.org/10.48550/arxiv.2205.06299,5,,,,,
