@@ -127,6 +127,12 @@ def create_website_csv(root_dir, save_topics=True):
         df_website = _create_website_columns(df_topic, topic.name)
         website = pd.concat([website, df_website], ignore_index=True)
 
+        if topic == 'hardware':
+            df_citations = bib_to_csv(topic.name, root_dir, 
+                                      bib_file='citations.bib', save=save_topics)
+            df_citations = bib_to_csv(topic.name, root_dir, 
+                                      bib_file='collaborations.bib', save=save_topics)
+
     website.to_csv(csv_dir.joinpath('website.csv'), index=False)
     print("Finished saving website.csv")
     print("Save Directory:", csv_dir)
