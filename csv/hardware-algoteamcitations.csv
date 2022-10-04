@@ -1,0 +1,14 @@
+url,doi,copyright,publisher,month,year,keywords,author,title,ENTRYTYPE,ID,pages,number,volume,journal
+https://arxiv.org/abs/2110.08163,10.48550/ARXIV.2110.08163,"arXiv.org perpetual, non-exclusive license",arXiv,10,2021,"Quantum Physics (quant-ph), Biological Physics (physics.bio-ph), 
+FOS: Physical sciences, FOS: Physical sciences","Kirsopp, Josh John Mellor and Di Paola, Cono 
+and Manrique, {David Zsolt} and Krompiec, Michal 
+and Greene-Diniz, Gabriel and Guba, Wolfgang and Meyder, Agnes 
+and Wolf, Detlef and Strahm, Martin and Ramo, David Munoz",Quantum Computational Quantification of Protein-Ligand Interactions,article,https://doi.org/10.48550/arxiv.2110.08163,,,,
+https://arxiv.org/abs/2109.04840,10.48550/ARXIV.2109.04840,"arXiv.org perpetual, non-exclusive license",arXiv,9,2021,"Quantum Physics (quant-ph), FOS: Physical sciences, 
+FOS: Physical sciences","Herbert, Steven and Guichard, Roland and Ng, Darren",Noise-Aware Quantum Amplitude Estimation,article,https://doi.org/10.48550/arxiv.2109.04840,,,,
+https://doi.org/10.1088%2F2058-9565%2Fac3e54,10.1088/2058-9565/ac3e54,,IOP Publishing,2,2022,,"Amaro, David and Modica, Carlo and Rosenkranz, Matthias 
+and Fiorentini, Mattia and Benedetti, Marcello 
+and Lubasch, Michael","Filtering variational quantum algorithms for combinatorial 
+optimization",article,10.1088/2058-9565/ac3e54,015021,1,7,Quantum Science and Technology
+https://arxiv.org/abs/2206.07559,10.48550/ARXIV.2206.07559,"arXiv.org perpetual, non-exclusive license",arXiv,6,2022,"Quantum Physics (quant-ph), Machine Learning (stat.ML), FOS: Physical sciences, FOS: Physical sciences, FOS: Computer and information sciences, FOS: Computer and information sciences","Duffield, Samuel and Benedetti, Marcello and Rosenkranz, Matthias",Bayesian Learning of Parameterised Quantum Circuits,article,https://doi.org/10.48550/arxiv.2206.07559,,,,
+https://arxiv.org/abs/2206.08811,10.48550/ARXIV.2206.08811,"arXiv.org perpetual, non-exclusive license",arXiv,6,2022,"Quantum Physics (quant-ph), FOS: Physical sciences, FOS: Physical sciences","Fontana, Enrico and Rungger, Ivan and Duncan, Ross and Cîrstoiu, Cristina",Spectral analysis for noise diagnostics and filter-based digital error mitigation,misc,https://doi.org/10.48550/arxiv.2206.08811,,,,
