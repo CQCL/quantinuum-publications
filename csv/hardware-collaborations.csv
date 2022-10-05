@@ -1,0 +1,47 @@
+url,doi,copyright,publisher,month,year,keywords,author,title,ENTRYTYPE,ID,numpages,pages,issue,volume,journal,issn,abstract,number,day
+https://arxiv.org/abs/2110.03137,10.48550/ARXIV.2110.03137,"arXiv.org perpetual, non-exclusive license",arXiv,10,2021,"Quantum Physics (quant-ph), FOS: Physical sciences, 
+FOS: Physical sciences","Lubinski, Thomas and Johri, Sonika and Varosy, Paul 
+and Coleman, Jeremiah and Zhao, Luning and Necaise, Jason 
+and Baldwin, Charles H. and Mayer, Karl and Proctor, Timothy",Application-Oriented Performance Benchmarks for Quantum Computing,article,https://doi.org/10.48550/arxiv.2110.03137,,,,,,,,,
+https://arxiv.org/abs/2112.10810,10.48550/ARXIV.2112.10810,Creative Commons Attribution Share Alike 4.0 International,arXiv,2,2021,"Strongly Correlated Electrons (cond-mat.str-el), 
+Quantum Physics (quant-ph), FOS: Physical sciences, 
+FOS: Physical sciences","Niu, Daoheng and Haghshenas, Reza and Zhang, Yuxuan 
+and Foss-Feig, Michael and Chan, Garnet Kin-Lic 
+and Potter, Andrew C.","Holographic simulation of correlated electrons on a trapped ion 
+quantum processor",article,https://doi.org/10.48550/arxiv.2112.10810,,,,,,,,,
+https://arxiv.org/abs/2202.10911,10.48550/ARXIV.2202.10911,"arXiv.org perpetual, non-exclusive license",arXiv,2,2022,"Quantum Physics (quant-ph), 
+Statistical Mechanics (cond-mat.stat-mech), 
+FOS: Physical sciences, FOS: Physical sciences","Wall, Michael L. and Titum, Paraj and Quiroz, Gregory 
+and Foss-Feig, Michael and Hazzard, Kaden R. A.","A tensor network discriminator architecture for classification 
+of quantum data on quantum computers",article,https://doi.org/10.48550/arxiv.2202.10911,,,,,,,,,
+https://arxiv.org/abs/2203.05520,10.48550/ARXIV.2203.05520,"arXiv.org perpetual, non-exclusive license",arXiv,3,2022,"Quantum Physics (quant-ph), 
+Instrumentation and Detectors (physics.ins-det), 
+FOS: Physical sciences, FOS: Physical sciences","Polloreno, Anthony M. and Beckey, Jacob L. and Levin, Joshua 
+and Shlosberg, Ariel and Thompson, James K. 
+and Foss-Feig, Michael and Hayes, David and Smith, Graeme",Opportunities and Limitations in Broadband Sensing,article,https://doi.org/10.48550/arxiv.2203.05520,,,,,,,,,
+https://arxiv.org/abs/2204.12400,10.48550/ARXIV.2204.12400,"arXiv.org perpetual, non-exclusive license",arXiv,4,2022,"Quantum Physics (quant-ph), FOS: Physical sciences, 
+FOS: Physical sciences","Del Re, Lorenzo and Rost, Brian and Foss-Feig, Michael 
+and Kemper, A. F. and Freericks, J. K.","Robust measurements of n-point correlation functions of 
+driven-dissipative quantum systems on a digital quantum computer",article,https://doi.org/10.48550/arxiv.2204.12400,,,,,,,,,
+https://link.aps.org/doi/10.1103/PhysRevLett.128.150504,10.1103/PhysRevLett.128.150504,,American Physical Society,4,2022,,"Foss-Feig, Michael and Ragole, Stephen and Potter, Andrew 
+and Dreiling, Joan and Figgatt, Caroline and Gaebler, John 
+and Hall, Alex and Moses, Steven and Pino, Juan and Spaun, Ben 
+and Neyenhuis, Brian and Hayes, David",Entanglement from Tensor Networks on a Trapped-Ion Quantum Computer,article,Foss-Feig:2022,6,150504,15,128,Phys. Rev. Lett.,,,,
+https://arxiv.org/abs/2205.06299,10.48550/ARXIV.2205.06299,Creative Commons Attribution Share Alike 4.0 International,arXiv,5,2022,"Quantum Physics (quant-ph), Quantum Gases (cond-mat.quant-gas), 
+Strongly Correlated Electrons (cond-mat.str-el), 
+FOS: Physical sciences, FOS: Physical sciences","Zhang, Yuxuan and Jahanbani, Shahin and Niu, Daoheng 
+and Haghshenas, Reza and Potter, Andrew C.","Qubit-efficient simulation of thermal states with quantum tensor 
+networks",article,https://doi.org/10.48550/arxiv.2205.06299,,,,,,,,,
+https://doi.org/10.1038/s41586-022-04853-4,10.1038/s41586-022-04853-4,,,7,2022,,"Dumitrescu, Philipp T.
+and Bohnet, Justin G.
+and Gaebler, John P.
+and Hankin, Aaron
+and Hayes, David
+and Kumar, Ajesh
+and Neyenhuis, Brian
+and Vasseur, Romain
+and Potter, Andrew C.",Dynamical topological phase realized in a trapped-ion quantum simulator,article,Dumitrescu2022,,463-467,,607,Nature,1476-4687,"Nascent platforms for programmable quantum simulation offer unprecedented access to new regimes of far-from-equilibrium quantum many-body dynamics in almost isolated systems. Here achieving precise control over quantum many-body entanglement is an essential task for quantum sensing and computation. Extensive theoretical work indicates that these capabilities can enable dynamical phases and critical phenomena that show topologically robust methods to create, protect and manipulate quantum entanglement that self-correct against large classes of errors. However, so far, experimental realizations have been confined to classical (non-entangled) symmetry-breaking orders1--5. In this work, we demonstrate an emergent dynamical symmetry-protected topological phase6, in a quasiperiodically driven array of ten 171Yb+ hyperfine qubits in Quantinuum's System Model H1 trapped-ion quantum processor7. This phase shows edge qubits that are dynamically protected from control errors, cross-talk and stray fields. Crucially, this edge protection relies purely on emergent dynamical symmetries that are absolutely stable to generic coherent perturbations. This property is special to quasiperiodically driven systems: as we demonstrate, the analogous edge states of a periodically driven qubit array are vulnerable to symmetry-breaking errors and quickly decohere. Our work paves the way for implementation of more complex dynamical topological orders8,9 that would enable error-resilient manipulation of quantum information.",7919,1
+https://arxiv.org/abs/2208.13557,10.48550/ARXIV.2208.13557,Creative Commons Attribution 4.0 International,arXiv,8,2022,"Quantum Physics (quant-ph), Nuclear Theory (nucl-th), FOS: Physical sciences, FOS: Physical sciences","Bee-Lindgren, Max and Qian, Zhengrong and DeCross, Matthew and Brown, Natalie C. and Gilbreth, Christopher N. and Watkins, Jacob and Zhang, Xilin and Lee, Dean",Rodeo Algorithm with Controlled Reversal Gates,article,https://doi.org/10.48550/arxiv.2208.13557,,,,,,,,,
+https://link.aps.org/doi/10.1103/PhysRevResearch.3.L032047,10.1103/PhysRevResearch.3.L032047,,American Physical Society,8,2021,,"Wang, Zhiyuan and Foss-Feig, Michael and Hazzard, Kaden R. A.","Bounding the finite-size error of quantum many-body dynamics 
+simulations",article,10.1103/PhysRevResearch.3.L032047,8,L032047,3,3,Phys. Rev. Research,,,,
+https://arxiv.org/abs/2209.12889,10.48550/ARXIV.2209.12889,"arXiv.org perpetual, non-exclusive license",arXiv,9,2022,"Quantum Physics (quant-ph), Statistical Mechanics (cond-mat.stat-mech), Strongly Correlated Electrons (cond-mat.str-el), FOS: Physical sciences, FOS: Physical sciences","Chertkov, Eli and Cheng, Zihan and Potter, Andrew C. and Gopalakrishnan, Sarang and Gatterman, Thomas M. and Gerber, Justin A. and Gilmore, Kevin and Gresh, Dan and Hall, Alex and Hankin, Aaron and Matheny, Mitchell and Mengle, Tanner and Hayes, David and Neyenhuis, Brian and Stutz, Russell and Foss-Feig, Michael",Characterizing a non-equilibrium phase transition on a quantum computer,article,https://doi.org/10.48550/arxiv.2209.12889,,,,,,,,,
