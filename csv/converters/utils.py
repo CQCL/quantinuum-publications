@@ -140,3 +140,42 @@ def create_website_csv(root_dir, save_topics=True):
     print("Save Directory:", csv_dir)
 
     return website
+
+def collate_topic(topic, root_dir, save=True):
+    """ Collate all bib files for one team's topic. """
+    csv_dir = root_dir.joinpath('csv')
+
+    articles = pd.read_csv(csv_dir.joinpath(topic+'-articles.csv'))
+    citations = bib_to_csv(topic, root_dir, bib_file='citations.bib', save=True)
+    collaborations = bib_to_csv(topic, root_dir, bib_file='collaborations.bib', 
+                                save=True)
+
+    articles['csv-file'] = 'articles'
+    citations['csv-file'] = 'citations'
+    collaborations['csv-file'] = 'collaborations'
+
+    all_references = pd.concat([articles, citations, collaborations], 
+                               ignore_index=True)
+
+    if topic == 'hardware':
+        algoteamcitations = bib_to_csv(topic, root_dir, 
+                                       bib_file='algoteamcitations.bib', 
+                                       save=True)
+        algoteamcitations['csv-file'] = 'algoteamcitations'
+        all_references = pd.concat([all_references, algoteamcitations], 
+                                   ignore_index=True)
+
+    # all_references.drop(columns=['numpages', 'pages', 'issue', 'volume',
+    #                              'ENTRYTYPE', 'ID', 'number', 'copyright', 
+    #                              'keywords', 'issn', 'primaryclass', 'eprint', 
+    #                              'place', 'abstract', 'day'],
+    #                     axis=1, inplace=True)
+
+    all_references = all_references[['csv-file', 'title', 'author', 'journal', 
+                                     'publisher', 'url', 'doi', 'month', 'year']]
+
+    if save:
+        all_csv = topic+'-references.csv'
+        all_references.to_csv(csv_dir.joinpath(all_csv), index=False)
+
+    return all_references
