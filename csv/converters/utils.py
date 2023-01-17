@@ -25,7 +25,11 @@ def _reverse_author_order(name_list):
             else:
                 new_list.append(new_name+',')
         else:
-            new_list.append(name)
+
+            if name_list.index(name) == (len(name_list)-1):
+                new_list.append(name)
+            else:
+                new_list.append(name+',')
 
     new_list = ' '.join(name for name in new_list)
     new_list = new_list.replace('  ', ', ')
@@ -45,7 +49,7 @@ def _create_website_columns(df, topic):
                     .str.replace('\n', '', regex=True)
                     .str.replace('{', '', regex=True)
                     .str.replace('}', '', regex=True))
-    df['author_list'] = df.author.str.split('and')
+    df['author_list'] = df.author.str.split(' and ') # keep spaces in, otherwise messes up those with name "Alexander"
     df['Authors List'] = df.author_list.apply(lambda x: _reverse_author_order(x))
 
     if 'journal' not in df.columns:
@@ -61,23 +65,11 @@ def _create_website_columns(df, topic):
     df['Journal'] = np.where(df.publisher == 'arXiv', 
                              'arXiv preprint', 
                              df.Journal)
-    
-    if topic == 'ai':
-        topic = topic.upper()
-    if topic == 'hardware':
-        topic = 'Hardware'
-    if topic == 'inquanto':
-        topic = 'InQuanto'
-    if topic == 'ml':
-        topic = 'Machine Learning'
-    if topic == 'nlp':
-        topic = 'Natural Language Processing'
-    if topic == 'other':
-        topic = 'Other'
-    if topic == 'qermit':
-        topic = topic.upper()
-    if topic == 'tket':
-        topic = topic.upper()
+
+    if '_' in topic:
+        topic = topic.replace('_', ' ').title()
+    else:
+        topic = topic.title()
 
     df['Tech Solution'] = topic
 
