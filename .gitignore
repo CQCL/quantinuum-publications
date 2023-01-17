@@ -45,3 +45,5 @@ share/python-wheels/
 *.log
 *.synctex.gz
 *Notes.bib
+*.pdf
+*.tex
