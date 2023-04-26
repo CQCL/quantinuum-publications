@@ -137,7 +137,8 @@ def collate_topic(topic, root_dir, save=True):
     """ Collate all bib files for one team's topic. """
     csv_dir = root_dir.joinpath('csv')
 
-    articles = pd.read_csv(csv_dir.joinpath(topic+'-articles.csv'))
+    #articles = pd.read_csv(csv_dir.joinpath(topic+'-articles.csv'))
+    articles = bib_to_csv(topic, root_dir, bib_file='articles.bib', save=True)
     citations = bib_to_csv(topic, root_dir, bib_file='citations.bib', save=True)
     collaborations = bib_to_csv(topic, root_dir, bib_file='collaborations.bib', 
                                 save=True)
