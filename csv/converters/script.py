@@ -13,6 +13,3 @@ website = create_website_csv(root_dir, save_topics=True)
 
 topic = 'hardware'
 hardware_references = collate_topic(topic, root_dir)
-
-topic = 'IonQ'
-IonQ_references = collate_topic(topic, root_dir)
