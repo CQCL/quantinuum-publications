@@ -15,4 +15,4 @@ topic = 'hardware'
 hardware_references = collate_topic(topic, root_dir)
 
 topic = 'IonQ'
-hardware_references = collate_topic(topic, root_dir)
+IonQ_references = collate_topic(topic, root_dir)
