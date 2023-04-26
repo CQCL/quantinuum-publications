@@ -166,6 +166,7 @@ def collate_topic(topic, root_dir, save=True):
         IonQ['csv-file'] = 'IonQ'
         all_references = pd.concat([all_references, IonQ], 
                                    ignore_index=True)
+        
     all_references = all_references[['csv-file', 'title', 'author', 'journal', 
                                      'publisher', 'url', 'doi', 'month', 'year']]
     if save:
