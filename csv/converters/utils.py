@@ -156,10 +156,14 @@ def collate_topic(topic, root_dir, save=True):
         algoteamcitations['csv-file'] = 'algoteamcitations'
         all_references = pd.concat([all_references, algoteamcitations], 
                                    ignore_index=True)
-
+        
     all_references = all_references[['csv-file', 'title', 'author', 'journal', 
                                      'publisher', 'url', 'doi', 'month', 'year']]
-
+    if topic == 'IonQ':
+        IonQ = bib_to_csv(topic, root_dir, 
+                                       bib_file='IonQ.bib', 
+                                       save=True)
+        IonQ['csv-file'] = 'IonQ'
     if save:
         all_csv = topic+'-references.csv'
         all_references.to_csv(csv_dir.joinpath(all_csv), index=False)
