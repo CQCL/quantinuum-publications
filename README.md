@@ -78,5 +78,5 @@ peer-reviewed journals.
 
 A Jupyter notebook called `create-csv.ipynb` is located in the `csv` folder. 
 This notebook assumes you are running the it from the `csv` folder. Inside the 
-noteboook are cells for converting the `.bib` file to `.csv`. The python 
+notebook are cells for converting the `.bib` file to `.csv`. The python 
 installations you need to run the notebook are in the `requirements.txt` file. 
