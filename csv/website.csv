@@ -83,6 +83,7 @@ Every Classical Sampling Circuit is a Quantum Sampling Circuit,,,Steven Herbert,
 Quantum computing for data-centric engineering and science,,https://doi.org/10.1017%2Fdce.2022.36,Steven Herbert,Data-Centric Engineering,Algorithms
 Average Mixing in Quantum Walks of Reversible Markov Chains,,,Julien Sorci,,Algorithms
 Observing quantum measurement collapse as a learnability phase transition,Sun Oct 01 2023 00:00:00 GMT+0000 (Coordinated Universal Time),https://arxiv.org/abs/2311.00058,"Utkarsh Agrawal, Javier Lopez-Piqueres, Romain Vasseur, Sarang Gopalakrishnan, Andrew C. Potter",,Algorithms
+A noise-limiting quantum algorithm using mid-circuit measurements for dynamical correlations at infinite temperature,Mon Jan 01 2024 00:00:00 GMT+0000 (Coordinated Universal Time),https://arxiv.org/abs/2401.02207,"Etienne Granet, Henrik Dreyer",,Algorithms
 Volumetric benchmarking of error mitigation with Qermit,,,"Cristina Cirstoiu, Silas Dilkes, Daniel Mills, Seyon Sivarajah, Ross Duncan",Quantum,Error Mitigation
 Spectral analysis for noise diagnostics and filter-based digital error mitigation,Wed Jun 01 2022 00:00:00 GMT+0000 (Coordinated Universal Time),https://arxiv.org/abs/2206.08811,"Enrico Fontana, Ivan Rungger, Ross Duncan, Cristina Cirstoiu",arXiv preprint,Error Mitigation
 On the depth overhead incurred when running quantum algorithms on near-term quantum computers with limited qubit connectivity,Tue May 01 2018 00:00:00 GMT+0000 (Coordinated Universal Time),https://arxiv.org/abs/1805.12570,Steven Herbert,arXiv preprint,Software Development
