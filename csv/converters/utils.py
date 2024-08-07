@@ -124,8 +124,8 @@ def create_website_csv(root_dir, save_topics=True):
                                       bib_file='citations.bib', save=save_topics)
             df_citations = bib_to_csv(topic.name, root_dir, 
                                       bib_file='collaborations.bib', save=save_topics)
-            df_citations = bib_to_csv(topic.name, root_dir,
-                                      bib_file='algoteamcitations.bib', save=save_topics)
+            '''df_citations = bib_to_csv(topic.name, root_dir,
+                                      bib_file='algoteamcitations.bib', save=save_topics) removed algoteam citations '''
 
     website.to_csv(csv_dir.joinpath('website.csv'), index=False)
     print("Finished saving website.csv")
@@ -150,12 +150,12 @@ def collate_topic(topic, root_dir, save=True):
                                ignore_index=True)
 
     if topic == 'hardware':
-        algoteamcitations = bib_to_csv(topic, root_dir, 
+        '''algoteamcitations = bib_to_csv(topic, root_dir, 
                                        bib_file='algoteamcitations.bib', 
-                                       save=True)
-        algoteamcitations['csv-file'] = 'algoteamcitations'
+                                       save=True)'''
+        '''algoteamcitations['csv-file'] = 'algoteamcitations'
         all_references = pd.concat([all_references, algoteamcitations], 
-                                   ignore_index=True)
+                                   ignore_index=True)'''
         
     all_references = all_references[['csv-file', 'title', 'author', 'journal', 
                                      'publisher', 'url', 'doi', 'month', 'year']]
