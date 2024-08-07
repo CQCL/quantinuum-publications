@@ -9,12 +9,14 @@ on:
 
 jobs:
   build:
+    permissions:
+      contents: : write
     runs-on: ubuntu-latest
     steps:
 
       # checkout repo contents
       - name: checkout repo content
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.ref }}
 
