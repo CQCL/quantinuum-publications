@@ -18,6 +18,9 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v4
         with:
+          repository: owner/repo
+          token: ${{secrets.PATH}}
+          fetch-depth: 0
           ref: ${{ github.event.pull_request.head.ref }}
 
       # install python
