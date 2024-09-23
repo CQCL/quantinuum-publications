@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     permissions:
-      contents: : write
+      contents: write
     runs-on: ubuntu-latest
     steps:
 
@@ -19,6 +19,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.ref }}
+          token: ${{ secrets.PAT }}
+          fetch-depth: 0
+          
 
       # install python
       - name: setup python
